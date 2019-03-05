@@ -30,4 +30,7 @@ done
 
 unset config_files
 
-eval "$(rbenv init - zsh --no-rehash)"
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
