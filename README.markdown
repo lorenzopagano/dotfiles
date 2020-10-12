@@ -2,7 +2,7 @@
 
 ## Install
 
-- `git clone git://github.com/apeacox/dotfiles ~/.dotfiles`
+- `git clone git@github.com:lorenzopagano/dotfiles.git ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `brew bundle Brewfile`
 - `rake install`
