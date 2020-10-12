@@ -1,7 +1,6 @@
 # ~/.dotfiles
 
 ## Install
-
 - `git clone git@github.com:lorenzopagano/dotfiles.git ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `brew bundle Brewfile`
