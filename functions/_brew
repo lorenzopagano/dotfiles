@@ -1,4 +1,4 @@
-#compdef brew
+# compdef brew
 
 # Brew ZSH completion function
 # Drop this somewhere in your $fpath (like /usr/share/zsh/site-functions)

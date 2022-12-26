@@ -3,7 +3,7 @@
 ## Install
 - `git clone git@github.com:lorenzopagano/dotfiles.git ~/.dotfiles`
 - `cd ~/.dotfiles`
-- `brew bundle Brewfile`
+- `brew bundle`
 - `rake install`
 
 The install rake task will symlink the appropriate files in `.dotfiles` to your
@@ -35,8 +35,3 @@ There's a few special files in the hierarchy.
   symlinked in when you run `rake install`.
 - **topic/\*.completion.sh**: Any files ending in `completion.sh` get loaded
   last so that they get loaded after we set up zsh autocomplete functions.
-
-## Credits
-
-I started by forking [Andrea Pavoni](https://github.com/apeacox)'s excellent
-[dotfiles](https://github.com/apeacox/dotfiles).
