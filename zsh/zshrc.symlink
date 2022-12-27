@@ -29,3 +29,5 @@ for file in ${(M)config_files:#*/completion.zsh}; do
 done
 
 unset config_files
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
